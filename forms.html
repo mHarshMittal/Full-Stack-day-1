@@ -3,7 +3,8 @@
     <label for="Student Name">Student Name:</label>
     <input type="text" name="username" id="Student Name" required placeholder="Harsh Mittal">
     <br>
-    <label for="Father's Name">Father's Name:</label>
+    <br> 
+    <label for="Father's Name">Father's Name:</label> 
     <input type="text" name="Father's Name" id="Father's Name" required>
     <br>
     <label for="Mobile No">Mobile No:</label>
@@ -17,8 +18,9 @@
     
 
     <p>Gender:</p>
-    <input type="radio" id="Male" name="Gender" value="Male">
+    <input type="text " id="Male" name="Gender" value="Male">
     <label for="Male">Male</label><br>
+
     <input type="radio" id="Female" name="Gender" value="Female">
     <label for="Female">Female</label><br>
     <input type="radio" id="Prefer not to say" name="Gender" value="Prefer not to say">
@@ -29,6 +31,26 @@
     <button type="submit">Submit</button>
     
 
+    <form action="post_form.html">
+        <input type="submit" value="Know More">
+    </form>
 
 </form>
+
+
+
+
+using post method
+
+<form action="/submit-data" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+
 
